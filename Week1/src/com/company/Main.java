@@ -7,12 +7,12 @@ public class Main {
     String s1 = "Welcome";
     String s2 = "Welcome";
     String s3 = "Welcome";
-    //Tek bir tane obje yaratilacaktir. Stringler ayni oldugundan dolayi tek bir tane obje yaratılacaktır.
+    //Stringler ayni oldugundan dolayi tek bir tane obje yaratılacaktır.
 
-    // Degerlerin icerip icermedigine dair kontrolu yapilacak veri
+    // Degerlerin icersinde aranacak veri
     static String data = "<<code>>";
 
-    // Alinana String[] parametre icerisinde gezildi ve tanimli olan String'i icerip icermedigi kontrol edildi.
+    // Alinan String[] parametre icerisinde gezildi ve tanimli olan String'i icerip icermedigi kontrol edildi.
     public static String requiredMethod(String[] values) {
 
         for (String value: values) {
